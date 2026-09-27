@@ -12,7 +12,7 @@ int lengthOfWord = word.length();
 for (int index = 0; index <= (lengthOfWord - 1); index++){
 char letter = word.charAt(index);
 
-if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
 count++;
 
 }
