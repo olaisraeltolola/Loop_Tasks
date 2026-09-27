@@ -1,13 +1,9 @@
-public class NumbersDivisibleBySevenCount{
+public class NumbersDivisibleByThreeAndFive{
 	public static void main(String[] args){
 
-int count = 0;
-
 for (int numbers = 1; numbers <= 100; numbers++){
-	if (numbers % 7 == 0)
-	count ++;
-
-System.out.println(count);
+	if (numbers % 3 == 0 && numbers % 5 == 0)
+	System.out.println(numbers);
 }
 }
 
